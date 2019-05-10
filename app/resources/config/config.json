@@ -1,10 +1,10 @@
 {
 	"app":{
-		"database_ip" : "172.25.131.68",
-		"database_name" : "dwdes",
- 		"database_user" : "etl",
+		"database_ip" : "127.0.0.1",
+		"database_name" : "app",
+ 		"database_user" : "root",
 		"database_pwd" : "etl",
-		"database_port" : "5432",
+		"database_port" : "3306",
 		
 	}
 }
