@@ -2,8 +2,8 @@
   <info>
     <name>enviroment</name>
     <description>Clean Transformation</description>
-    <extended_description/>
-    <trans_version/>
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
     <directory>/</directory>
@@ -26,13 +26,13 @@
       </parameter>
       <parameter>
         <name>#cpk.plugin.id</name>
-        <default_value/>
+        <default_value />
         <description>The id of the plugin. This value is automatically set at runtime if  '#' is removed from variable name.
 </description>
       </parameter>
       <parameter>
         <name>#cpk.response.attachmentName</name>
-        <default_value/>
+        <default_value />
         <description>The attachment name used when downloading a file from a result.  Remove '#' to use variable.</description>
       </parameter>
       <parameter>
@@ -47,7 +47,7 @@
       </parameter>
       <parameter>
         <name>#cpk.response.mimeType</name>
-        <default_value/>
+        <default_value />
         <description>The mimeType of the http response. If this value is not set, the plugin will try to determine it from the file extension. Remove '#' to use variable.</description>
       </parameter>
       <parameter>
@@ -57,18 +57,18 @@
       </parameter>
       <parameter>
         <name>#cpk.session.[sessionVarName]</name>
-        <default_value/>
+        <default_value />
         <description>The value of session variable named [sessionVarName]. This value is automatically injected here at runtime if '#' is removed from variable name.
 </description>
       </parameter>
       <parameter>
         <name>#cpk.session.roles</name>
-        <default_value/>
+        <default_value />
         <description>The roles of the username executing this transformation. This value is automatically set at runtime if '#' is removed from variable name.</description>
       </parameter>
       <parameter>
         <name>#cpk.session.username</name>
-        <default_value/>
+        <default_value />
         <description>The username that is executing this transformation. This value is automatically set at runtime if '#' is removed from variable name.</description>
       </parameter>
       <parameter>
@@ -89,12 +89,12 @@
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -119,37 +119,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -203,11 +203,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -285,10 +285,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -351,10 +351,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -427,10 +427,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -479,9 +479,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -492,7 +492,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -507,63 +507,12 @@
     <created_user>-</created_user>
     <created_date>2013/07/04 18:48:57.073</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2019/05/10 15:39:00.123</modified_date>
+    <modified_date>2019/05/13 09:20:06.912</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
-  <connection>
-    <name>APP_DB</name>
-    <server>${APP_DB_IP}</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>${APP_DB_NAME}</database>
-    <port>${APP_DB_PORT}</port>
-    <username>${APP_DB_USER}</username>
-    <password>${APP_DB_PWD}</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>${APP_DB_PORT}</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
   <order>
     <hop>
       <from>JSON Input</from>
@@ -579,16 +528,16 @@
   <step>
     <name>JSON Input</name>
     <type>JsonInput</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <include>N</include>
-    <include_field/>
+    <include_field />
     <rownum>N</rownum>
     <addresultfile>N</addresultfile>
     <readurl>N</readurl>
@@ -596,12 +545,11 @@
     <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
     <doNotFailIfNoFile>Y</doNotFailIfNoFile>
     <ignoreMissingPath>Y</ignoreMissingPath>
-    <defaultPathLeafToNull>Y</defaultPathLeafToNull>
-    <rownum_field/>
+    <rownum_field />
     <file>
       <name>${cpk.plugin.dir}/resources/config/config.json</name>
-      <filemask/>
-      <exclude_filemask/>
+      <filemask />
+      <exclude_filemask />
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
     </file>
@@ -610,10 +558,10 @@
         <name>database_ip</name>
         <path>$..database_ip</path>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -623,10 +571,10 @@
         <name>database_name</name>
         <path>$..database_name</path>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -636,10 +584,10 @@
         <name>database_user</name>
         <path>$..database_user</path>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -649,10 +597,10 @@
         <name>database_pwd</name>
         <path>$..database_pwd</path>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -662,10 +610,10 @@
         <name>database_port</name>
         <path>$..database_port</path>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -675,17 +623,16 @@
     <limit>0</limit>
     <IsInFields>N</IsInFields>
     <IsAFile>N</IsAFile>
-    <valueField/>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-    <attributes/>
-    <cluster_schema/>
+    <valueField />
+    <shortFileFieldName />
+    <pathFieldName />
+    <hiddenFieldName />
+    <lastModificationTimeFieldName />
+    <uriNameFieldName />
+    <rootUriNameFieldName />
+    <extensionFieldName />
+    <sizeFieldName />
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -694,23 +641,22 @@
     </remotesteps>
     <GUI>
       <xloc>160</xloc>
-      <yloc>208</yloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>OUTPUT</name>
     <type>Dummy</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -719,27 +665,27 @@
     </remotesteps>
     <GUI>
       <xloc>608</xloc>
-      <yloc>208</yloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
     <name>Set Variables</name>
     <type>SetVariable</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <field_name>database_ip</field_name>
         <variable_name>APP_DB_IP</variable_name>
         <variable_type>JVM</variable_type>
-        <default_value>127.0.0.1</default_value>
+        <default_value>localhost</default_value>
       </field>
       <field>
         <field_name>database_name</field_name>
@@ -751,19 +697,19 @@
         <field_name>database_name</field_name>
         <variable_name>APP_DB_USER</variable_name>
         <variable_type>JVM</variable_type>
-        <default_value>root</default_value>
+        <default_value>postgres</default_value>
       </field>
       <field>
         <field_name>database_pwd</field_name>
         <variable_name>APP_DB_PWD</variable_name>
         <variable_type>JVM</variable_type>
-        <default_value>positivo</default_value>
+        <default_value>postgres</default_value>
       </field>
       <field>
         <field_name>database_port</field_name>
         <variable_name>APP_DB_PORT</variable_name>
         <variable_type>JVM</variable_type>
-        <default_value>3306</default_value>
+        <default_value>5432</default_value>
       </field>
       <field>
         <field_name>prod_mode</field_name>
@@ -773,8 +719,7 @@
       </field>
     </fields>
     <use_formatting>Y</use_formatting>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -782,8 +727,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
-      <yloc>208</yloc>
+      <xloc>368</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

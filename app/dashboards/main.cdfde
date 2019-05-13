@@ -1,94 +1,257 @@
 {
- "layout": {
-  "title": "main",
-  "rows": []
- },
- "components": {
-  "rows": []
- },
- "datasources": {
-  "rows": [
-   {
-    "id": "SQL",
-    "name": "SQL Queries",
-    "type": "Label",
-    "typeDesc": "<i>Group</i>",
-    "parent": "UnIqEiD",
-    "properties": [
-     {
-      "name": "Group",
-      "value": "SQL Queries",
-      "type": "Label"
-     }
+  "components" : {
+    "rows" : [ ]
+  },
+  "datasources" : {
+    "rows" : [
+      {
+        "id" : "SQL",
+        "name" : "SQL Queries",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "Group",
+            "type" : "Label",
+            "value" : "SQL Queries"
+          }
+        ],
+        "type" : "Label",
+        "typeDesc" : "\u003Ci\u003EGroup\u003C/i\u003E"
+      },
+      {
+        "id" : "0a56c773-c21a-33cb-c9aa-716d1c31731a",
+        "meta" : "CDA",
+        "meta_conntype" : "sql.jndi",
+        "meta_datype" : "sql",
+        "parent" : "SQL",
+        "properties" : [
+          {
+            "name" : "name",
+            "type" : "Id",
+            "value" : "dummy"
+          },
+          {
+            "name" : "access",
+            "type" : "Access",
+            "value" : "public"
+          },
+          {
+            "name" : "jndi",
+            "type" : "Jndi",
+            "value" : ""
+          },
+          {
+            "name" : "query",
+            "type" : "SqlQuery",
+            "value" : ""
+          },
+          {
+            "name" : "parameters",
+            "type" : "CdaParameters",
+            "value" : "[]"
+          },
+          {
+            "name" : "cdacalculatedcolumns",
+            "type" : "CdaCalculatedColumnsArray",
+            "value" : "[]"
+          },
+          {
+            "name" : "cdacolumns",
+            "type" : "CdaColumnsArray",
+            "value" : "[]"
+          },
+          {
+            "name" : "output",
+            "type" : "IndexArray",
+            "value" : "[]"
+          },
+          {
+            "name" : "outputMode",
+            "type" : "OutputMode",
+            "value" : "include"
+          },
+          {
+            "name" : "cacheKeys",
+            "value" : "[]",
+            "type" : "CacheKeysValues"
+          },
+          {
+            "name" : "cacheDuration",
+            "type" : "Integer",
+            "value" : 3600
+          },
+          {
+            "name" : "cache",
+            "type" : "Boolean",
+            "value" : "true"
+          }
+        ],
+        "type" : "Componentssql_sqlJndi",
+        "typeDesc" : "sql over sqlJndi"
+      }
     ]
-   },
-   {
-    "id": "0a56c773-c21a-33cb-c9aa-716d1c31731a",
-    "type": "Componentssql_sqlJndi",
-    "typeDesc": "sql over sqlJndi",
-    "meta": "CDA",
-    "meta_conntype": "sql.jndi",
-    "meta_datype": "sql",
-    "parent": "SQL",
-    "properties": [
-     {
-      "name": "name",
-      "value": "dummy",
-      "type": "Id"
-     },
-     {
-      "name": "access",
-      "value": "public",
-      "type": "Access"
-     },
-     {
-      "name": "jndi",
-      "value": "",
-      "type": "Jndi"
-     },
-     {
-      "name": "query",
-      "value": "",
-      "type": "SqlQuery"
-     },
-     {
-      "name": "parameters",
-      "value": "[]",
-      "type": "CdaParameters"
-     },
-     {
-      "name": "output",
-      "value": "[]",
-      "type": "IndexArray"
-     },
-     {
-      "name": "outputMode",
-      "value": "include",
-      "type": "OutputMode"
-     },
-     {
-      "name": "cdacolumns",
-      "value": "[]",
-      "type": "CdaColumnsArray"
-     },
-     {
-      "name": "cdacalculatedcolumns",
-      "value": "[]",
-      "type": "CdaCalculatedColumnsArray"
-     },
-     {
-      "name": "cacheDuration",
-      "value": 3600,
-      "type": "Integer"
-     },
-     {
-      "name": "cache",
-      "value": "true",
-      "type": "Boolean"
-     }
-    ]
-   }
-  ]
- },
- "filename": "file:///home/212369/dev/opt/pentaho/v8.2/pentaho-server/pentaho-solutions/system/app/dashboards/main.cdfde"
+  },
+  "filename" : "/system/app/dashboards/main.cdfde",
+  "layout" : {
+    "rows" : [
+      {
+        "id" : "c1f6e560-1f07-8e37-9cea-5d516363b25d",
+        "type" : "LayoutSpace",
+        "typeDesc" : "Space",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "height",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "backgroundColor",
+            "value" : "",
+            "type" : "Color"
+          },
+          {
+            "name" : "cssClass",
+            "value" : "",
+            "type" : "String"
+          }
+        ]
+      },
+      {
+        "id" : "da3d8881-4153-9818-5386-2708d44e8a00",
+        "type" : "LayoutRow",
+        "typeDesc" : "Row",
+        "parent" : "UnIqEiD",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "",
+            "type" : "Id"
+          },
+          {
+            "name" : "height",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "backgroundColor",
+            "value" : "",
+            "type" : "Color"
+          },
+          {
+            "name" : "roundCorners",
+            "value" : "",
+            "type" : "RoundCorners"
+          },
+          {
+            "name" : "textAlign",
+            "value" : "",
+            "type" : "TextAlign"
+          },
+          {
+            "name" : "cssClass",
+            "value" : "",
+            "type" : "String"
+          }
+        ]
+      },
+      {
+        "id" : "69dbf75a-5a1a-4ba6-bbe2-c8e54e2d8e81",
+        "type" : "LayoutBootstrapColumn",
+        "typeDesc" : "Column",
+        "parent" : "da3d8881-4153-9818-5386-2708d44e8a00",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "",
+            "type" : "Id"
+          },
+          {
+            "name" : "bootstrapExtraSmall",
+            "value" : "12",
+            "type" : "String"
+          },
+          {
+            "name" : "bootstrapSmall",
+            "value" : "12",
+            "type" : "String"
+          },
+          {
+            "name" : "bootstrapMedium",
+            "value" : "12",
+            "type" : "String"
+          },
+          {
+            "name" : "bootstrapLarge",
+            "value" : "12",
+            "type" : "String"
+          },
+          {
+            "name" : "bootstrapCssClass",
+            "value" : "",
+            "type" : "String"
+          },
+          {
+            "name" : "height",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "backgroundColor",
+            "value" : "",
+            "type" : "Color"
+          },
+          {
+            "name" : "roundCorners",
+            "value" : "",
+            "type" : "RoundCorners"
+          },
+          {
+            "name" : "textAlign",
+            "value" : "",
+            "type" : "TextAlign"
+          },
+          {
+            "name" : "cssClass",
+            "value" : "",
+            "type" : "String"
+          }
+        ]
+      },
+      {
+        "id" : "f7baba57-7411-06dc-28c3-4fe2ecd62876",
+        "type" : "LayoutHtml",
+        "typeDesc" : "Html",
+        "parent" : "69dbf75a-5a1a-4ba6-bbe2-c8e54e2d8e81",
+        "properties" : [
+          {
+            "name" : "name",
+            "value" : "",
+            "type" : "Id"
+          },
+          {
+            "name" : "html",
+            "value" : "\u003Cdiv class=\u0022container\u0022\u003E\n\n\u003Cdiv class=\u0022jumbotron\u0022\u003E\n\u003Ch1\u003EAPP Vue\u003C/h1\u003E\n\u003Cp\u003EAcesso a app Vuejs\u003C/p\u003E\n\n\u003Ca  href=\u0022/pentaho/api/repos/app/front/index.html\u0022 \n    class=\u0022btn btn-primary btn-lg active\u0022 \n    role=\u0022button\u0022 aria-pressed=\u0022true\u0022 target=\u0022_blank\u0022\u003EIR AO RECURSO\u003C/a\u003E\n\u003C/div\u003E\n\n\u003C/div\u003E ",
+            "type" : "Html"
+          },
+          {
+            "name" : "fontSize",
+            "value" : "",
+            "type" : "Integer"
+          },
+          {
+            "name" : "color",
+            "value" : "",
+            "type" : "Color"
+          },
+          {
+            "name" : "cssClass",
+            "value" : "",
+            "type" : "String"
+          }
+        ]
+      }
+    ],
+    "title" : "main"
+  }
 }

@@ -25,8 +25,8 @@
           <td class="text-xs-right">{{ props.item.isActive }}</td>
           <td class="text-xs-right">{{ props.item.birthDate }}</td>
           <td class="justify-center layout px-0">
-            <v-icon small class="mr-2" @click="update(props.item)">edit</v-icon>
-            <v-icon small @click="remove(props.item)">delete</v-icon>
+            <v-icon color="warning" small class="mr-2" @click="update(props.item)">edit</v-icon>
+            <v-icon color="red" small @click="remove(props.item)">delete</v-icon>
           </td>
         </template>
         <template v-slot:no-results>

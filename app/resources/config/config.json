@@ -1,10 +1,10 @@
 {
 	"app":{
-		"database_ip" : "127.0.0.1",
+		"database_ip" : "localhost",
 		"database_name" : "app",
- 		"database_user" : "root",
-		"database_pwd" : "etl",
-		"database_port" : "3306",
+ 		"database_user" : "postgres",
+		"database_pwd" : "postgres",
+		"database_port" : "5432",
 		
 	}
 }

@@ -2,8 +2,8 @@
   <info>
     <name>user</name>
     <description>Clean Transformation</description>
-    <extended_description/>
-    <trans_version/>
+    <extended_description />
+    <trans_version />
     <trans_type>Normal</trans_type>
     <trans_status>0</trans_status>
     <directory>/</directory>
@@ -21,7 +21,7 @@
       </parameter>
       <parameter>
         <name>#cpk.executeAtStart</name>
-        <default_value/>
+        <default_value />
         <description>Whether the transformation is to be executed when the plugin is initialized. Remove '#' to use variable.</description>
       </parameter>
       <parameter>
@@ -31,13 +31,13 @@
       </parameter>
       <parameter>
         <name>#cpk.plugin.id</name>
-        <default_value/>
+        <default_value />
         <description>The id of the plugin. This value is automatically set at runtime if  '#' is removed from variable name.
 </description>
       </parameter>
       <parameter>
         <name>#cpk.response.attachmentName</name>
-        <default_value/>
+        <default_value />
         <description>The attachment name used when downloading a file from a result.  Remove '#' to use variable.</description>
       </parameter>
       <parameter>
@@ -52,7 +52,7 @@
       </parameter>
       <parameter>
         <name>#cpk.response.mimeType</name>
-        <default_value/>
+        <default_value />
         <description>The mimeType of the http response. If this value is not set, the plugin will try to determine it from the file extension. Remove '#' to use variable.</description>
       </parameter>
       <parameter>
@@ -62,18 +62,18 @@
       </parameter>
       <parameter>
         <name>#cpk.session.[sessionVarName]</name>
-        <default_value/>
+        <default_value />
         <description>The value of session variable named [sessionVarName]. This value is automatically injected here at runtime if '#' is removed from variable name.
 </description>
       </parameter>
       <parameter>
         <name>#cpk.session.roles</name>
-        <default_value/>
+        <default_value />
         <description>The roles of the username executing this transformation. This value is automatically set at runtime if '#' is removed from variable name.</description>
       </parameter>
       <parameter>
         <name>#cpk.session.username</name>
-        <default_value/>
+        <default_value />
         <description>The username that is executing this transformation. This value is automatically set at runtime if '#' is removed from variable name.</description>
       </parameter>
       <parameter>
@@ -89,42 +89,42 @@
       <parameter>
         <name>METHOD</name>
         <default_value>READ</default_value>
-        <description/>
+        <description />
       </parameter>
       <parameter>
         <name>USER_ACTIVE</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
       <parameter>
         <name>USER_AGE</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
       <parameter>
         <name>USER_BIRTH_DATE</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
       <parameter>
         <name>USER_ID</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
       <parameter>
         <name>USER_NAME</name>
-        <default_value/>
-        <description/>
+        <default_value />
+        <description />
       </parameter>
     </parameters>
     <log>
       <trans-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <size_limit_lines/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <size_limit_lines />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -149,37 +149,37 @@
           <id>LINES_READ</id>
           <enabled>Y</enabled>
           <name>LINES_READ</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_WRITTEN</id>
           <enabled>Y</enabled>
           <name>LINES_WRITTEN</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_UPDATED</id>
           <enabled>Y</enabled>
           <name>LINES_UPDATED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_INPUT</id>
           <enabled>Y</enabled>
           <name>LINES_INPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_OUTPUT</id>
           <enabled>Y</enabled>
           <name>LINES_OUTPUT</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>LINES_REJECTED</id>
           <enabled>Y</enabled>
           <name>LINES_REJECTED</name>
-          <subject/>
+          <subject />
         </field>
         <field>
           <id>ERRORS</id>
@@ -233,11 +233,11 @@
         </field>
       </trans-log-table>
       <perf-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <interval/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <interval />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -315,10 +315,10 @@
         </field>
       </perf-log-table>
       <channel-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -381,10 +381,10 @@
         </field>
       </channel-log-table>
       <step-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -457,10 +457,10 @@
         </field>
       </step-log-table>
       <metrics-log-table>
-        <connection/>
-        <schema/>
-        <table/>
-        <timeout_days/>
+        <connection />
+        <schema />
+        <table />
+        <timeout_days />
         <field>
           <id>ID_BATCH</id>
           <enabled>Y</enabled>
@@ -509,9 +509,9 @@
       </metrics-log-table>
     </log>
     <maxdate>
-      <connection/>
-      <table/>
-      <field/>
+      <connection />
+      <table />
+      <field />
       <offset>0.0</offset>
       <maxdiff>0.0</maxdiff>
     </maxdate>
@@ -522,7 +522,7 @@
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
-    <shared_objects_file/>
+    <shared_objects_file />
     <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
@@ -537,7 +537,7 @@
     <created_user>-</created_user>
     <created_date>2013/07/04 18:48:57.073</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2019/05/10 16:18:48.047</modified_date>
+    <modified_date>2019/05/13 09:22:34.198</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -546,12 +546,14 @@
       <note>METHODS
 READ - DEFAULT
 DELETE - REQUIRE ID
-UPDATE - REQUIRED NEW VERSION OF USER
-INSERT - REQUIRE DATA FOR CREATION</note>
-      <xloc>592</xloc>
-      <yloc>512</yloc>
-      <width>431</width>
-      <heigth>125</heigth>
+UPDATE - REQUIRED NEW 
+		VERSION OF USER
+INSERT - REQUIRE DATA 
+		FOR CREATION</note>
+      <xloc>16</xloc>
+      <yloc>96</yloc>
+      <width>212</width>
+      <heigth>171</heigth>
       <fontname>Roboto Condensed</fontname>
       <fontsize>14</fontsize>
       <fontbold>Y</fontbold>
@@ -570,19 +572,18 @@ INSERT - REQUIRE DATA FOR CREATION</note>
     <notepad>
       <note>TABLE : 
 
-CREATE TABLE app.user
+CREATE TABLE controle.user
 (
   user_id int
 , user_name varchar(200)
 , user_age int
 , user_active BOOLEAN
 , user_birth_date TIMESTAMP
-)
-;</note>
-      <xloc>816</xloc>
-      <yloc>128</yloc>
-      <width>268</width>
-      <heigth>252</heigth>
+);</note>
+      <xloc>624</xloc>
+      <yloc>32</yloc>
+      <width>231</width>
+      <heigth>240</heigth>
       <fontname>Roboto Condensed</fontname>
       <fontsize>14</fontsize>
       <fontbold>N</fontbold>
@@ -607,7 +608,7 @@ USER_ACTIVE: Status,
 USER_BIRTH_DATE: Data Nascimento.</note>
       <xloc>32</xloc>
       <yloc>464</yloc>
-      <width>368</width>
+      <width>301</width>
       <heigth>148</heigth>
       <fontname>Roboto Condensed</fontname>
       <fontsize>14</fontsize>
@@ -628,15 +629,15 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <connection>
     <name>APP_DB</name>
     <server>${APP_DB_IP}</server>
-    <type>MYSQL</type>
+    <type>POSTGRESQL</type>
     <access>Native</access>
     <database>${APP_DB_NAME}</database>
     <port>${APP_DB_PORT}</port>
     <username>${APP_DB_USER}</username>
     <password>${APP_DB_PWD}</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
@@ -661,10 +662,6 @@ USER_BIRTH_DATE: Data Nascimento.</note>
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>STREAM_RESULTS</code>
-        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -735,16 +732,15 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>OUTPUT</name>
     <type>Dummy</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -760,21 +756,21 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>SwitchByMethods</name>
     <type>SwitchCase</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fieldname>METHOD</fieldname>
     <use_contains>N</use_contains>
     <case_value_type>String</case_value_type>
-    <case_value_format/>
-    <case_value_decimal/>
-    <case_value_group/>
-    <default_target_step/>
+    <case_value_format />
+    <case_value_decimal />
+    <case_value_group />
+    <default_target_step />
     <cases>
       <case>
         <value>DELETE</value>
@@ -793,8 +789,7 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <target_step>removeParams</target_step>
       </case>
     </cases>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -810,30 +805,29 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>constErrorOnOperation</name>
     <type>Constant</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>ErrorOnOperation</name>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <nullif>Error on operation.</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -849,32 +843,31 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>deleteUser</name>
     <type>ExecSQL</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>APP_DB</connection>
     <execute_each_row>Y</execute_each_row>
     <single_statement>N</single_statement>
     <replace_variables>Y</replace_variables>
     <quoteString>N</quoteString>
-    <sql>delete from app.user where user_id = ?;</sql>
+    <sql>delete from public.user where user_id = ?;</sql>
     <set_params>N</set_params>
-    <insert_field/>
-    <update_field/>
-    <delete_field/>
-    <read_field/>
+    <insert_field />
+    <update_field />
+    <delete_field />
+    <read_field />
     <arguments>
       <argument>
         <name>USER_ID</name>
       </argument>
     </arguments>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -890,23 +883,23 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>getPostParameters</name>
     <type>GetVariable</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <field>
         <name>METHOD</name>
         <variable>${METHOD}</variable>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -915,10 +908,10 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_ACTIVE</name>
         <variable>${USER_ACTIVE}</variable>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -927,10 +920,10 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_AGE</name>
         <variable>${USER_AGE}</variable>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -939,10 +932,10 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_BIRTH_DATE</name>
         <variable>${USER_BIRTH_DATE}</variable>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -951,10 +944,10 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_ID</name>
         <variable>${USER_ID}</variable>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
@@ -963,17 +956,16 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_NAME</name>
         <variable>${USER_NAME}</variable>
         <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
+        <format />
+        <currency />
+        <decimal />
+        <group />
         <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
     </fields>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -989,35 +981,30 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>insertUser</name>
     <type>ExecSQL</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>APP_DB</connection>
     <execute_each_row>Y</execute_each_row>
     <single_statement>N</single_statement>
     <replace_variables>Y</replace_variables>
     <quoteString>N</quoteString>
-    <sql>INSERT INTO `app`.`user`
-(`user_id`,
-`user_name`,
-`user_age`,
-`user_active`,
-`user_birth_date`) values (
-	(select coalesce(max(user_id),0)+1 as id from app.user), 
+    <sql>insert into public.user values (
+	(select coalesce(max(user_id),0)+1 as id from public.user), 
 	'?',
 	?,
 	'?',
 	'?');</sql>
     <set_params>N</set_params>
-    <insert_field/>
-    <update_field/>
-    <delete_field/>
-    <read_field/>
+    <insert_field />
+    <update_field />
+    <delete_field />
+    <read_field />
     <arguments>
       <argument>
         <name>USER_NAME</name>
@@ -1032,8 +1019,7 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_BIRTH_DATE</name>
       </argument>
     </arguments>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1049,23 +1035,22 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>readTable</name>
     <type>TableInput</type>
-    <description/>
+    <description />
     <distribute>N</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>APP_DB</connection>
-    <sql>select * from app.user</sql>
+    <sql>select * from public.user</sql>
     <limit>0</limit>
-    <lookup/>
+    <lookup />
     <execute_each_row>N</execute_each_row>
     <variables_active>N</variables_active>
     <lazy_conversion_active>N</lazy_conversion_active>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1081,13 +1066,13 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>removeParams</name>
     <type>SelectValues</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <fields>
       <select_unspecified>N</select_unspecified>
@@ -1110,8 +1095,7 @@ USER_BIRTH_DATE: Data Nascimento.</note>
         <name>USER_NAME</name>
       </remove>
     </fields>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1127,27 +1111,27 @@ USER_BIRTH_DATE: Data Nascimento.</note>
   <step>
     <name>updateUser</name>
     <type>ExecSQL</type>
-    <description/>
+    <description />
     <distribute>Y</distribute>
-    <custom_distribution/>
+    <custom_distribution />
     <copies>1</copies>
     <partitioning>
       <method>none</method>
-      <schema_name/>
+      <schema_name />
     </partitioning>
     <connection>APP_DB</connection>
     <execute_each_row>Y</execute_each_row>
     <single_statement>N</single_statement>
     <replace_variables>Y</replace_variables>
     <quoteString>N</quoteString>
-    <sql>UPDATE app.user
+    <sql>UPDATE public.user
 SET user_name='?', user_age=?, user_active=?, user_birth_date='?' 
 where user_id=?;</sql>
     <set_params>N</set_params>
-    <insert_field/>
-    <update_field/>
-    <delete_field/>
-    <read_field/>
+    <insert_field />
+    <update_field />
+    <delete_field />
+    <read_field />
     <arguments>
       <argument>
         <name>USER_NAME</name>
@@ -1165,8 +1149,7 @@ where user_id=?;</sql>
         <name>USER_ID</name>
       </argument>
     </arguments>
-    <attributes/>
-    <cluster_schema/>
+    <cluster_schema />
     <remotesteps>
       <input>
       </input>
@@ -1184,37 +1167,37 @@ where user_id=?;</sql>
       <source_step>deleteUser</source_step>
       <target_step>constErrorOnOperation</target_step>
       <is_enabled>Y</is_enabled>
-      <nr_valuename/>
-      <descriptions_valuename/>
-      <fields_valuename/>
-      <codes_valuename/>
-      <max_errors/>
-      <max_pct_errors/>
-      <min_pct_rows/>
+      <nr_valuename />
+      <descriptions_valuename />
+      <fields_valuename />
+      <codes_valuename />
+      <max_errors />
+      <max_pct_errors />
+      <min_pct_rows />
     </error>
     <error>
       <source_step>insertUser</source_step>
       <target_step>constErrorOnOperation</target_step>
       <is_enabled>Y</is_enabled>
-      <nr_valuename/>
-      <descriptions_valuename/>
-      <fields_valuename/>
-      <codes_valuename/>
-      <max_errors/>
-      <max_pct_errors/>
-      <min_pct_rows/>
+      <nr_valuename />
+      <descriptions_valuename />
+      <fields_valuename />
+      <codes_valuename />
+      <max_errors />
+      <max_pct_errors />
+      <min_pct_rows />
     </error>
     <error>
       <source_step>updateUser</source_step>
       <target_step>constErrorOnOperation</target_step>
       <is_enabled>Y</is_enabled>
-      <nr_valuename/>
-      <descriptions_valuename/>
-      <fields_valuename/>
-      <codes_valuename/>
-      <max_errors/>
-      <max_pct_errors/>
-      <min_pct_rows/>
+      <nr_valuename />
+      <descriptions_valuename />
+      <fields_valuename />
+      <codes_valuename />
+      <max_errors />
+      <max_pct_errors />
+      <min_pct_rows />
     </error>
   </step_error_handling>
   <slave-step-copy-partition-distribution>
